@@ -1,3 +1,5 @@
+<p align="right">Language:&emsp;<img alt="English" src="lang-en-on.svg" align="middle" style="vertical-align:middle"> <a href="README.es.md" style="vertical-align:middle"><img alt="Español" src="lang-es-off.svg" align="middle" style="vertical-align:middle"></a></p>
+
 # ADRenaline
 
 A suite of agent plugins for software work. Each plugin does the job of one profession, or of an area that several professions share. Someone who needs a diagram, an audit, or copy asks the plugin that produces it.

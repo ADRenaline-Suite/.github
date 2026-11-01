@@ -35,6 +35,17 @@ Publicados:
 - [plugin-ui-ux-design](https://github.com/ADRenaline-Suite/plugin-ui-ux-design) — Diseña la experiencia y la interfaz, de la tarea al handoff, sin escribir el código.
 - [plugin-project-context](https://github.com/ADRenaline-Suite/plugin-project-context) — Deja la foto actual del proyecto y qué plugins de la suite encajan.
 - [plugin-software-architect](https://github.com/ADRenaline-Suite/plugin-software-architect) — Evalúa una arquitectura y escribe el 4+1 y el manual arc42.
+- [plugin-project-manager](https://github.com/ADRenaline-Suite/plugin-project-manager) — Escribe el caso de uso, la tarea entre repositorios, el reporte de avance, el sprint y el backlog ordenado.
+- [plugin-apis](https://github.com/ADRenaline-Suite/plugin-apis) — Escribe el contrato HTTP: operaciones, problem details y la política de versión.
+- [plugin-backend](https://github.com/ADRenaline-Suite/plugin-backend) — Escribe el lenguaje, el agregado y el servicio de aplicación.
+- [plugin-frontend](https://github.com/ADRenaline-Suite/plugin-frontend) — Implementa una pantalla desde el handoff, con sus estados y el presupuesto de vitales.
+- [plugin-qa-engineer](https://github.com/ADRenaline-Suite/plugin-qa-engineer) — Escribe el escenario, el nivel y el tipo de prueba.
+- [plugin-security](https://github.com/ADRenaline-Suite/plugin-security) — Clasifica una amenaza y escribe el requisito verificable.
+- [plugin-ux-writing](https://github.com/ADRenaline-Suite/plugin-ux-writing) — Escribe los textos de interfaz, la voz y el glosario.
+- [plugin-accessibility](https://github.com/ADRenaline-Suite/plugin-accessibility) — Audita contra WCAG 2.2 y escribe el requisito.
+- [plugin-documentation](https://github.com/ADRenaline-Suite/plugin-documentation) — Escribe un documento en un tipo Diátaxis.
+- [plugin-privacy](https://github.com/ADRenaline-Suite/plugin-privacy) — Registra una actividad de tratamiento, sin elegir la base legal.
+- [plugin-action-confirmation](https://github.com/ADRenaline-Suite/plugin-action-confirmation) — Exige la frase allow exacta en este turno antes de una escritura.
 
 Cuando se crea el repositorio de un plugin, se añade a esta lista en los dos idiomas, en el mismo cambio.
 

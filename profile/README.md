@@ -35,6 +35,17 @@ Published:
 - [plugin-ui-ux-design](https://github.com/ADRenaline-Suite/plugin-ui-ux-design) — Designs the experience and the interface, from the task through handoff, without writing the code.
 - [plugin-project-context](https://github.com/ADRenaline-Suite/plugin-project-context) — Records the current picture of a project and which suite plugins fit.
 - [plugin-software-architect](https://github.com/ADRenaline-Suite/plugin-software-architect) — Evaluates an architecture and writes the 4+1 and the arc42 manual.
+- [plugin-project-manager](https://github.com/ADRenaline-Suite/plugin-project-manager) — Writes the use case, the cross-repository task, the progress report, the sprint plan, and the ordered backlog.
+- [plugin-apis](https://github.com/ADRenaline-Suite/plugin-apis) — Writes the HTTP contract: operations, problem details, and the version policy.
+- [plugin-backend](https://github.com/ADRenaline-Suite/plugin-backend) — Writes the language, the aggregate, and the application service.
+- [plugin-frontend](https://github.com/ADRenaline-Suite/plugin-frontend) — Implements a screen from a handoff, with its states and the vitals budget.
+- [plugin-qa-engineer](https://github.com/ADRenaline-Suite/plugin-qa-engineer) — Writes the test scenario, the level, and the type.
+- [plugin-security](https://github.com/ADRenaline-Suite/plugin-security) — Classifies a threat and writes the verifiable requirement.
+- [plugin-ux-writing](https://github.com/ADRenaline-Suite/plugin-ux-writing) — Writes the interface strings, the voice, and the glossary.
+- [plugin-accessibility](https://github.com/ADRenaline-Suite/plugin-accessibility) — Audits against WCAG 2.2 and writes the requirement.
+- [plugin-documentation](https://github.com/ADRenaline-Suite/plugin-documentation) — Writes one document in one Diátaxis type.
+- [plugin-privacy](https://github.com/ADRenaline-Suite/plugin-privacy) — Records one processing activity, without choosing a legal basis.
+- [plugin-action-confirmation](https://github.com/ADRenaline-Suite/plugin-action-confirmation) — Requires the exact allow phrase in this turn before a write.
 
 When a plugin repository is created, add it to this list in both languages, in the same change.
 

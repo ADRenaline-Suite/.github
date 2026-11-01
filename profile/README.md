@@ -9,46 +9,48 @@
   </a>
 </p>
 
-The mark is one chevron. The tail is cyan and the tip is amber: the stroke starts cold and arrives as a flash. Ink is `#061018`. The square mark is [mark.svg](mark.svg).
+# Your agent, with a craft
 
-# ADRenaline
+Ask for the diagram, the screen, the words, the contract, or the test. The plugin that knows that job writes it. When the work belongs to another craft, it points you there.
 
-A suite of agent plugins for software work. Each plugin does the job of one profession, or of an area that several professions share. Someone who needs a diagram, an audit, or copy asks the plugin that produces it.
+Fifteen plugins are ready. Pick the one that matches the work in front of you. It runs in Cursor and in Claude Code. You ask in your language. The file it saves follows that language.
 
-It works in Cursor and in Claude Code. The plugin is written in English. The file it saves in the project follows the language of the person who asked.
+## Try one
 
-In Cursor the command is short: `/uml-classes-v2`, `/uiux-wireframe`. In Claude Code the plugin name comes first: `/plugin-uml-diagrams:uml-classes-v2`.
+In Cursor, open Customize and install the plugin from its repository.
 
-## Repositories
+In Claude Code, two lines. Swap the name for the craft you want:
 
-The name says the type. A new repository shows up in this organization without changing this table.
+```text
+claude plugin marketplace add ADRenaline-Suite/plugin-uml-diagrams
+claude plugin install plugin-uml-diagrams@plugin-uml-diagrams
+```
 
-| Starts with | It is |
-| --- | --- |
-| `plugin-` | An agent plugin. |
-| `template-` | A template: a project to copy and start from. |
-| `base-` | A complete project of the suite. |
+## See the system
 
-Published:
+- [Diagrams](https://github.com/ADRenaline-Suite/plugin-uml-diagrams) — a picture of the system, in the notation you asked for.
+- [Architecture](https://github.com/ADRenaline-Suite/plugin-software-architect) — the explanation a reader can follow, view by view.
+- [Project picture](https://github.com/ADRenaline-Suite/plugin-project-context) — what the project is today, and which plugins fit.
+- [Project manager](https://github.com/ADRenaline-Suite/plugin-project-manager) — the use case, the sprint, the status, the order of the work.
+- [Documentation](https://github.com/ADRenaline-Suite/plugin-documentation) — one page for one kind of reader.
 
-- [plugin-uml-diagrams](https://github.com/ADRenaline-Suite/plugin-uml-diagrams) — Draws UML 1.5 and UML 2.5.1 diagrams, each in its own notation.
-- [plugin-ui-ux-design](https://github.com/ADRenaline-Suite/plugin-ui-ux-design) — Designs the experience and the interface, from the task through handoff, without writing the code.
-- [plugin-project-context](https://github.com/ADRenaline-Suite/plugin-project-context) — Records the current picture of a project and which suite plugins fit.
-- [plugin-software-architect](https://github.com/ADRenaline-Suite/plugin-software-architect) — Evaluates an architecture and writes the 4+1 and the arc42 manual.
-- [plugin-project-manager](https://github.com/ADRenaline-Suite/plugin-project-manager) — Writes the use case, the cross-repository task, the progress report, the sprint plan, and the ordered backlog.
-- [plugin-apis](https://github.com/ADRenaline-Suite/plugin-apis) — Writes the HTTP contract: operations, problem details, and the version policy.
-- [plugin-backend](https://github.com/ADRenaline-Suite/plugin-backend) — Writes the language, the aggregate, and the application service.
-- [plugin-frontend](https://github.com/ADRenaline-Suite/plugin-frontend) — Implements a screen from a handoff, with its states and the vitals budget.
-- [plugin-qa-engineer](https://github.com/ADRenaline-Suite/plugin-qa-engineer) — Writes the test scenario, the level, and the type.
-- [plugin-security](https://github.com/ADRenaline-Suite/plugin-security) — Classifies a threat and writes the verifiable requirement.
-- [plugin-ux-writing](https://github.com/ADRenaline-Suite/plugin-ux-writing) — Writes the interface strings, the voice, and the glossary.
-- [plugin-accessibility](https://github.com/ADRenaline-Suite/plugin-accessibility) — Audits against WCAG 2.2 and writes the requirement.
-- [plugin-documentation](https://github.com/ADRenaline-Suite/plugin-documentation) — Writes one document in one Diátaxis type.
-- [plugin-privacy](https://github.com/ADRenaline-Suite/plugin-privacy) — Records one processing activity, without choosing a legal basis.
-- [plugin-action-confirmation](https://github.com/ADRenaline-Suite/plugin-action-confirmation) — Requires the exact allow phrase in this turn before a write.
+## Shape what people touch
 
-When a plugin repository is created, add it to this list in both languages, in the same change.
+- [Interface design](https://github.com/ADRenaline-Suite/plugin-ui-ux-design) — from the task to a screen someone can build.
+- [Interface writing](https://github.com/ADRenaline-Suite/plugin-ux-writing) — the words on that screen, in the languages of the product.
+- [Accessibility](https://github.com/ADRenaline-Suite/plugin-accessibility) — the check that people can actually use it.
 
-## Next
+## Build it
 
-Publish the rest of the plugins in the catalog. Add templates and a couple of complete projects. A marketplace that lists those repositories, without copying one inside another, and a command per profession that installs the core with its areas.
+- [APIs](https://github.com/ADRenaline-Suite/plugin-apis) — the contract a client can call.
+- [Backend](https://github.com/ADRenaline-Suite/plugin-backend) — the rules of the domain, in the language the project already uses.
+- [Frontend](https://github.com/ADRenaline-Suite/plugin-frontend) — the screen, built from the handoff, with its states.
+- [QA](https://github.com/ADRenaline-Suite/plugin-qa-engineer) — the test that traces back to the use case.
+
+## Leave a record you can trust
+
+- [Security](https://github.com/ADRenaline-Suite/plugin-security) — what can go wrong, and the requirement you can verify.
+- [Privacy](https://github.com/ADRenaline-Suite/plugin-privacy) — what the product does with a person's data.
+- [Action confirmation](https://github.com/ADRenaline-Suite/plugin-action-confirmation) — the agent waits for your exact phrase before it writes.
+
+<p align="center"><img alt="" src="mark.svg" width="72"></p>

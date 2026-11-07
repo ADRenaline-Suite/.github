@@ -13,7 +13,7 @@
 
 Pide el diagrama, la pantalla, las palabras, el contrato o la prueba. Lo escribe el plugin que sabe hacer ese trabajo. Si el trabajo es de otro oficio, te señala cuál.
 
-Hay quince plugins listos. Elige el que coincide con lo que tienes delante. Corre en Cursor y en Claude Code. Pides en tu idioma. El archivo que guarda sigue ese idioma.
+Hay dieciséis plugins listos. Elige el que coincide con lo que tienes delante. Corre en Cursor y en Claude Code. Pides en tu idioma. El archivo que guarda sigue ese idioma.
 
 ## Prueba uno
 
@@ -31,6 +31,7 @@ claude plugin install plugin-uml-diagrams@plugin-uml-diagrams
 - [Diagramas](https://github.com/ADRenaline-Suite/plugin-uml-diagrams) — una imagen del sistema, en la notación que pediste.
 - [Arquitectura](https://github.com/ADRenaline-Suite/plugin-software-architect) — la explicación que se puede seguir, vista por vista.
 - [Foto del proyecto](https://github.com/ADRenaline-Suite/plugin-project-context) — qué es el proyecto hoy, y qué plugins encajan.
+- [Cronología](https://github.com/ADRenaline-Suite/plugin-chronology) — qué se intentó en este proyecto, y si funcionó.
 - [Project manager](https://github.com/ADRenaline-Suite/plugin-project-manager) — el caso de uso, el sprint, el avance, el orden del trabajo.
 - [Documentación](https://github.com/ADRenaline-Suite/plugin-documentation) — una página para un tipo de lector.
 

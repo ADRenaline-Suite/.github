@@ -13,7 +13,7 @@
 
 Ask for the diagram, the screen, the words, the contract, or the test. The plugin that knows that job writes it. When the work belongs to another craft, it points you there.
 
-Fifteen plugins are ready. Pick the one that matches the work in front of you. It runs in Cursor and in Claude Code. You ask in your language. The file it saves follows that language.
+Sixteen plugins are ready. Pick the one that matches the work in front of you. It runs in Cursor and in Claude Code. You ask in your language. The file it saves follows that language.
 
 ## Try one
 
@@ -31,6 +31,7 @@ claude plugin install plugin-uml-diagrams@plugin-uml-diagrams
 - [Diagrams](https://github.com/ADRenaline-Suite/plugin-uml-diagrams) — a picture of the system, in the notation you asked for.
 - [Architecture](https://github.com/ADRenaline-Suite/plugin-software-architect) — the explanation a reader can follow, view by view.
 - [Project picture](https://github.com/ADRenaline-Suite/plugin-project-context) — what the project is today, and which plugins fit.
+- [Chronology](https://github.com/ADRenaline-Suite/plugin-chronology) — what was tried in this project, and whether it worked.
 - [Project manager](https://github.com/ADRenaline-Suite/plugin-project-manager) — the use case, the sprint, the status, the order of the work.
 - [Documentation](https://github.com/ADRenaline-Suite/plugin-documentation) — one page for one kind of reader.
 

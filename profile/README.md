@@ -1,23 +1,22 @@
-<p align="right">Language:&emsp;<img alt="English" src="lang-en-on.svg" align="middle" style="vertical-align:middle"> <a href="README.es.md" style="vertical-align:middle"><img alt="Español" src="lang-es-off.svg" align="middle" style="vertical-align:middle"></a></p>
+<p align="right">Language:&emsp;<img alt="English" src="lang-en-on.svg" width="100" height="32" align="middle"> <a href="README.es.md"><img alt="Español" src="lang-es-off.svg" width="108" height="32" align="middle"></a></p>
 
 <p align="center">
-  <a href="https://github.com/ADRenaline-Suite">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="wordmark-dark.svg">
-      <img alt="ADRenaline" src="wordmark.svg" width="320">
-    </picture>
-  </a>
+  <img alt="ADRenaline. Agent plugins for Cursor and Claude Code, one craft each." src="hero.svg" width="880">
 </p>
 
-# Your agent, with a craft
+# Agent plugins for Cursor and Claude Code
 
-Ask for the diagram, the screen, the words, the contract, or the test. The plugin that knows that job writes it. When the work belongs to another craft, it points you there.
+Your agent, with a craft. Ask for the UML diagram, the architecture, the screen, the words on that screen, the API contract, or the test. The plugin that knows that job writes the file. When the next job belongs to another craft, it names that plugin.
 
-Sixteen plugins are ready. Pick the one that matches the work in front of you. It runs in Cursor and in Claude Code. You ask in your language. The file it saves follows that language.
+Sixteen plugins are ready. They run in Cursor and in Claude Code. You ask in your language. The file it saves follows that language.
 
-## Try one
+<p align="center">
+  <img alt="Three steps: ask for one job, that craft writes the file, it names the next craft." src="steps.svg" width="880">
+</p>
 
-In Cursor, open Customize and install the plugin from its repository.
+## Install one plugin
+
+In Cursor, open Customize and install the plugin from its repository. A first one to try is [UML diagrams](https://github.com/ADRenaline-Suite/plugin-uml-diagrams).
 
 In Claude Code, two lines. Swap the name for the craft you want:
 
@@ -26,7 +25,20 @@ claude plugin marketplace add ADRenaline-Suite/plugin-uml-diagrams
 claude plugin install plugin-uml-diagrams@plugin-uml-diagrams
 ```
 
-## See the system
+On another agent, install the skill with that agent's own command. The skills travel. Rules, commands, and hooks load in Cursor and in Claude Code.
+
+## Start from the job
+
+| The job in front of you | Open |
+| --- | --- |
+| A picture of the system, in the notation you asked for | [UML diagrams](https://github.com/ADRenaline-Suite/plugin-uml-diagrams) |
+| An explanation a reader can follow, view by view | [Architecture](https://github.com/ADRenaline-Suite/plugin-software-architect) |
+| A screen someone can build | [Interface design](https://github.com/ADRenaline-Suite/plugin-ui-ux-design) |
+| The words on that screen | [Interface writing](https://github.com/ADRenaline-Suite/plugin-ux-writing) |
+| A contract a client can call | [APIs](https://github.com/ADRenaline-Suite/plugin-apis) |
+| A test that traces back to the use case | [QA](https://github.com/ADRenaline-Suite/plugin-qa-engineer) |
+
+## <img src="icon-see.svg" width="28" height="28" alt="" align="absmiddle"> See the system
 
 - [Diagrams](https://github.com/ADRenaline-Suite/plugin-uml-diagrams) — a picture of the system, in the notation you asked for.
 - [Architecture](https://github.com/ADRenaline-Suite/plugin-software-architect) — the explanation a reader can follow, view by view.
@@ -35,23 +47,53 @@ claude plugin install plugin-uml-diagrams@plugin-uml-diagrams
 - [Project manager](https://github.com/ADRenaline-Suite/plugin-project-manager) — the use case, the sprint, the status, the order of the work.
 - [Documentation](https://github.com/ADRenaline-Suite/plugin-documentation) — one page for one kind of reader.
 
-## Shape what people touch
+## <img src="icon-shape.svg" width="28" height="28" alt="" align="absmiddle"> Shape what people touch
 
 - [Interface design](https://github.com/ADRenaline-Suite/plugin-ui-ux-design) — from the task to a screen someone can build.
 - [Interface writing](https://github.com/ADRenaline-Suite/plugin-ux-writing) — the words on that screen, in the languages of the product.
 - [Accessibility](https://github.com/ADRenaline-Suite/plugin-accessibility) — the check that people can actually use it.
 
-## Build it
+## <img src="icon-build.svg" width="28" height="28" alt="" align="absmiddle"> Build it
 
 - [APIs](https://github.com/ADRenaline-Suite/plugin-apis) — the contract a client can call.
 - [Backend](https://github.com/ADRenaline-Suite/plugin-backend) — the rules of the domain, in the language the project already uses.
 - [Frontend](https://github.com/ADRenaline-Suite/plugin-frontend) — the screen, built from the handoff, with its states.
 - [QA](https://github.com/ADRenaline-Suite/plugin-qa-engineer) — the test that traces back to the use case.
 
-## Leave a record you can trust
+## <img src="icon-record.svg" width="28" height="28" alt="" align="absmiddle"> Leave a record you can trust
 
 - [Security](https://github.com/ADRenaline-Suite/plugin-security) — what can go wrong, and the requirement you can verify.
 - [Privacy](https://github.com/ADRenaline-Suite/plugin-privacy) — what the product does with a person's data.
 - [Action confirmation](https://github.com/ADRenaline-Suite/plugin-action-confirmation) — the agent waits for your exact phrase before it writes.
+
+## Questions
+
+<details>
+<summary>What is ADRenaline?</summary>
+
+A suite of agent plugins. Each plugin does one craft and writes that artifact in your project. A craft that several roles need is its own plugin. The others point to it.
+
+</details>
+
+<details>
+<summary>How do I install a plugin in Cursor?</summary>
+
+Open Customize and install the plugin from its repository on GitHub.
+
+</details>
+
+<details>
+<summary>How do I install a plugin in Claude Code?</summary>
+
+Add the repository as a marketplace, then install the plugin. The two commands are under Install one plugin. The example is UML diagrams. Swap the name for the craft you want.
+
+</details>
+
+<details>
+<summary>Which language do I use?</summary>
+
+The language of your request. The file the plugin saves follows that language. This page is in English and in Spanish.
+
+</details>
 
 <p align="center"><img alt="" src="mark.svg" width="72"></p>

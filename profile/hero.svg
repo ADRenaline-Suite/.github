@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="280" viewBox="0 0 960 280" role="img" aria-label="ADRenaline. Agent plugins for Cursor and Claude Code, one craft each.">
+  <title>ADRenaline. Agent plugins for Cursor and Claude Code, one craft each.</title>
+  <defs>
+    <linearGradient id="edge" x1="0" y1="0" x2="960" y2="280" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#2AD4FF"/>
+      <stop offset="1" stop-color="#FFBF00"/>
+    </linearGradient>
+    <linearGradient id="chev" x1="64" y1="140" x2="200" y2="140" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#2AD4FF" stop-opacity="0.15"/>
+      <stop offset="0.42" stop-color="#2AD4FF"/>
+      <stop offset="1" stop-color="#FFBF00"/>
+    </linearGradient>
+  </defs>
+  <rect x="1.5" y="1.5" width="957" height="277" rx="28" fill="#061018"/>
+  <rect x="1.5" y="1.5" width="957" height="277" rx="28" fill="none" stroke="url(#edge)" stroke-width="2"/>
+  <polyline points="690,36 930,140 690,244" fill="none" stroke="#2AD4FF" stroke-opacity="0.14" stroke-width="26" stroke-linecap="round" stroke-linejoin="round"/>
+  <polyline points="72,78 196,140 72,202" fill="none" stroke="url(#chev)" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="236" y="118" font-family="Segoe UI, system-ui, sans-serif" font-size="46" font-weight="600" fill="#F4F7FB" letter-spacing="-0.8">ADRenaline</text>
+  <text x="238" y="158" font-family="Segoe UI, system-ui, sans-serif" font-size="20" fill="#C5D0DC">Agent plugins, one craft each</text>
+  <rect x="238" y="188" width="112" height="40" rx="20" fill="#122536"/>
+  <text x="294" y="214" text-anchor="middle" font-family="Segoe UI, system-ui, sans-serif" font-size="15" font-weight="600" fill="#F4F7FB">Cursor</text>
+  <rect x="362" y="188" width="168" height="40" rx="20" fill="#122536"/>
+  <text x="446" y="214" text-anchor="middle" font-family="Segoe UI, system-ui, sans-serif" font-size="15" font-weight="600" fill="#F4F7FB">Claude Code</text>
+  <rect x="542" y="188" width="176" height="40" rx="20" fill="#122536"/>
+  <text x="630" y="214" text-anchor="middle" font-family="Segoe UI, system-ui, sans-serif" font-size="15" font-weight="600" fill="#F4F7FB">Your language</text>
+</svg>

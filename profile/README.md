@@ -14,29 +14,71 @@ Sixteen plugins are ready. They run in Cursor and in Claude Code. You ask in you
   <img alt="Three steps: ask for one job, that craft writes the file, it names the next craft." src="steps.svg" width="880">
 </p>
 
-## Install one plugin
+## <img src="icon-install.svg" width="28" height="28" alt="" align="absmiddle"> Install one plugin
 
-In Cursor, open Customize and install the plugin from its repository. A first one to try is [UML diagrams](https://github.com/ADRenaline-Suite/plugin-uml-diagrams).
+<table>
+<tr>
+<td width="33%" valign="top">
 
-In Claude Code, two lines. Swap the name for the craft you want:
+**Cursor**
 
-```text
-claude plugin marketplace add ADRenaline-Suite/plugin-uml-diagrams
-claude plugin install plugin-uml-diagrams@plugin-uml-diagrams
-```
+Open Customize and install the plugin from its repository. A first one to try is [UML diagrams](https://github.com/ADRenaline-Suite/plugin-uml-diagrams).
 
-On another agent, install the skill with that agent's own command. The skills travel. Rules, commands, and hooks load in Cursor and in Claude Code.
+</td>
+<td width="34%" valign="top">
 
-## Start from the job
+**Claude Code**
 
-| The job in front of you | Open |
-| --- | --- |
-| A picture of the system, in the notation you asked for | [UML diagrams](https://github.com/ADRenaline-Suite/plugin-uml-diagrams) |
-| An explanation a reader can follow, view by view | [Architecture](https://github.com/ADRenaline-Suite/plugin-software-architect) |
-| A screen someone can build | [Interface design](https://github.com/ADRenaline-Suite/plugin-ui-ux-design) |
-| The words on that screen | [Interface writing](https://github.com/ADRenaline-Suite/plugin-ux-writing) |
-| A contract a client can call | [APIs](https://github.com/ADRenaline-Suite/plugin-apis) |
-| A test that traces back to the use case | [QA](https://github.com/ADRenaline-Suite/plugin-qa-engineer) |
+<pre>claude plugin marketplace add ADRenaline-Suite/plugin-uml-diagrams
+claude plugin install plugin-uml-diagrams@plugin-uml-diagrams</pre>
+
+Swap the name for the craft you want.
+
+</td>
+<td width="33%" valign="top">
+
+**Another agent**
+
+Install the skill with that agent's own command. The skills travel. Rules, commands, and hooks load in Cursor and in Claude Code.
+
+</td>
+</tr>
+</table>
+
+The files land in your project. Follow the block that matches the project you have.
+
+## <img src="icon-new.svg" width="28" height="28" alt="" align="absmiddle"> When nothing is built yet
+
+1. [Project picture](https://github.com/ADRenaline-Suite/plugin-project-context) — what the project is, and which plugins fit.
+2. [Project manager](https://github.com/ADRenaline-Suite/plugin-project-manager) — the use case the other crafts start from.
+3. [Architecture](https://github.com/ADRenaline-Suite/plugin-software-architect) — the views and the decision. A UML view is [Diagrams](https://github.com/ADRenaline-Suite/plugin-uml-diagrams).
+4. [Interface design](https://github.com/ADRenaline-Suite/plugin-ui-ux-design), [Interface writing](https://github.com/ADRenaline-Suite/plugin-ux-writing), and [Accessibility](https://github.com/ADRenaline-Suite/plugin-accessibility) — when people will use a screen.
+5. [APIs](https://github.com/ADRenaline-Suite/plugin-apis), [Backend](https://github.com/ADRenaline-Suite/plugin-backend), and [Frontend](https://github.com/ADRenaline-Suite/plugin-frontend) — the contract, the domain, and the screen.
+6. [QA](https://github.com/ADRenaline-Suite/plugin-qa-engineer), [Security](https://github.com/ADRenaline-Suite/plugin-security), and [Documentation](https://github.com/ADRenaline-Suite/plugin-documentation) — the test, the threat, and the page for the reader.
+
+## <img src="icon-open.svg" width="28" height="28" alt="" align="absmiddle"> When the project is already built
+
+1. [Project picture](https://github.com/ADRenaline-Suite/plugin-project-context) — it reads the repository and names the gap.
+2. Open the craft that fills that gap.
+
+- No use case, sprint, or order of work — [Project manager](https://github.com/ADRenaline-Suite/plugin-project-manager)
+- The shape is unexplained, or a decision is open — [Architecture](https://github.com/ADRenaline-Suite/plugin-software-architect)
+- A screen to specify — [Interface design](https://github.com/ADRenaline-Suite/plugin-ui-ux-design)
+- The words on that screen — [Interface writing](https://github.com/ADRenaline-Suite/plugin-ux-writing)
+- Whether people can use the screen — [Accessibility](https://github.com/ADRenaline-Suite/plugin-accessibility)
+- An HTTP contract — [APIs](https://github.com/ADRenaline-Suite/plugin-apis)
+- The rules of the domain — [Backend](https://github.com/ADRenaline-Suite/plugin-backend)
+- A screen to build from a handoff — [Frontend](https://github.com/ADRenaline-Suite/plugin-frontend)
+- A test that traces to the use case — [QA](https://github.com/ADRenaline-Suite/plugin-qa-engineer)
+- What can go wrong — [Security](https://github.com/ADRenaline-Suite/plugin-security)
+- A page for one kind of reader — [Documentation](https://github.com/ADRenaline-Suite/plugin-documentation)
+- A UML diagram a craft asked for — [Diagrams](https://github.com/ADRenaline-Suite/plugin-uml-diagrams)
+
+## <img src="icon-beside.svg" width="28" height="28" alt="" align="absmiddle"> Beside either path
+
+- [Chronology](https://github.com/ADRenaline-Suite/plugin-chronology) — one note per chat of what was tried, and whether it worked.
+- [Action confirmation](https://github.com/ADRenaline-Suite/plugin-action-confirmation) — the exact phrase in that turn, before a write to a server, a database, or a remote repository.
+- [Privacy](https://github.com/ADRenaline-Suite/plugin-privacy) — what the product does with a person's data.
 
 ## <img src="icon-see.svg" width="28" height="28" alt="" align="absmiddle"> See the system
 

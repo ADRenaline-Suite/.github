@@ -14,29 +14,71 @@ Hay dieciséis plugins listos. Corren en Cursor y en Claude Code. Pides en tu id
   <img alt="Tres pasos: pide un trabajo, ese oficio lo escribe, nombra el oficio que sigue." src="steps.es.svg" width="880">
 </p>
 
-## Instala uno
+## <img src="icon-install.svg" width="28" height="28" alt="" align="absmiddle"> Instala uno
 
-En Cursor, abre Customize e instala el plugin desde su repositorio. Uno para empezar es [diagramas UML](https://github.com/ADRenaline-Suite/plugin-uml-diagrams).
+<table>
+<tr>
+<td width="33%" valign="top">
 
-En Claude Code, dos líneas. Cambia el nombre por el oficio que quieras:
+**Cursor**
 
-```text
-claude plugin marketplace add ADRenaline-Suite/plugin-uml-diagrams
-claude plugin install plugin-uml-diagrams@plugin-uml-diagrams
-```
+Abre Customize e instala el plugin desde su repositorio. Uno para empezar es [diagramas UML](https://github.com/ADRenaline-Suite/plugin-uml-diagrams).
 
-En otro agente, instala el skill con el comando de ese agente. Los skills viajan. Las rules, los commands y los hooks cargan en Cursor y en Claude Code.
+</td>
+<td width="34%" valign="top">
 
-## Empieza por el trabajo
+**Claude Code**
 
-| El trabajo que tienes delante | Abre |
-| --- | --- |
-| Una imagen del sistema, en la notación que pediste | [Diagramas UML](https://github.com/ADRenaline-Suite/plugin-uml-diagrams) |
-| Una explicación que se puede seguir, vista por vista | [Arquitectura](https://github.com/ADRenaline-Suite/plugin-software-architect) |
-| Una pantalla que se puede construir | [Diseño de interfaz](https://github.com/ADRenaline-Suite/plugin-ui-ux-design) |
-| Las palabras de esa pantalla | [Textos de interfaz](https://github.com/ADRenaline-Suite/plugin-ux-writing) |
-| Un contrato que un cliente puede llamar | [APIs](https://github.com/ADRenaline-Suite/plugin-apis) |
-| Una prueba que vuelve al caso de uso | [QA](https://github.com/ADRenaline-Suite/plugin-qa-engineer) |
+<pre>claude plugin marketplace add ADRenaline-Suite/plugin-uml-diagrams
+claude plugin install plugin-uml-diagrams@plugin-uml-diagrams</pre>
+
+Cambia el nombre por el oficio que quieras.
+
+</td>
+<td width="33%" valign="top">
+
+**Otro agente**
+
+Instala el skill con el comando de ese agente. Los skills viajan. Las rules, los commands y los hooks cargan en Cursor y en Claude Code.
+
+</td>
+</tr>
+</table>
+
+Los archivos quedan en tu proyecto. Sigue el bloque que corresponde al proyecto que tienes.
+
+## <img src="icon-new.svg" width="28" height="28" alt="" align="absmiddle"> Cuando todavía no hay nada construido
+
+1. [Foto del proyecto](https://github.com/ADRenaline-Suite/plugin-project-context) — qué es el proyecto, y qué plugins encajan.
+2. [Project manager](https://github.com/ADRenaline-Suite/plugin-project-manager) — el caso de uso del que parten los demás oficios.
+3. [Arquitectura](https://github.com/ADRenaline-Suite/plugin-software-architect) — las vistas y la decisión. Una vista UML es [Diagramas](https://github.com/ADRenaline-Suite/plugin-uml-diagrams).
+4. [Diseño de interfaz](https://github.com/ADRenaline-Suite/plugin-ui-ux-design), [Textos de interfaz](https://github.com/ADRenaline-Suite/plugin-ux-writing) y [Accesibilidad](https://github.com/ADRenaline-Suite/plugin-accessibility) — si la gente va a usar una pantalla.
+5. [APIs](https://github.com/ADRenaline-Suite/plugin-apis), [Backend](https://github.com/ADRenaline-Suite/plugin-backend) y [Frontend](https://github.com/ADRenaline-Suite/plugin-frontend) — el contrato, el dominio y la pantalla.
+6. [QA](https://github.com/ADRenaline-Suite/plugin-qa-engineer), [Seguridad](https://github.com/ADRenaline-Suite/plugin-security) y [Documentación](https://github.com/ADRenaline-Suite/plugin-documentation) — la prueba, la amenaza y la página para quien lee.
+
+## <img src="icon-open.svg" width="28" height="28" alt="" align="absmiddle"> Cuando el proyecto ya está construido
+
+1. [Foto del proyecto](https://github.com/ADRenaline-Suite/plugin-project-context) — lee el repositorio y nombra el hueco.
+2. Abre el oficio que cubre ese hueco.
+
+- No hay caso de uso, sprint u orden del trabajo — [Project manager](https://github.com/ADRenaline-Suite/plugin-project-manager)
+- La forma no está explicada, o hay una decisión abierta — [Arquitectura](https://github.com/ADRenaline-Suite/plugin-software-architect)
+- Una pantalla por especificar — [Diseño de interfaz](https://github.com/ADRenaline-Suite/plugin-ui-ux-design)
+- Las palabras de esa pantalla — [Textos de interfaz](https://github.com/ADRenaline-Suite/plugin-ux-writing)
+- Si la gente puede usar la pantalla — [Accesibilidad](https://github.com/ADRenaline-Suite/plugin-accessibility)
+- Un contrato HTTP — [APIs](https://github.com/ADRenaline-Suite/plugin-apis)
+- Las reglas del dominio — [Backend](https://github.com/ADRenaline-Suite/plugin-backend)
+- Una pantalla por construir desde el handoff — [Frontend](https://github.com/ADRenaline-Suite/plugin-frontend)
+- Una prueba que vuelve al caso de uso — [QA](https://github.com/ADRenaline-Suite/plugin-qa-engineer)
+- Qué puede salir mal — [Seguridad](https://github.com/ADRenaline-Suite/plugin-security)
+- Una página para un tipo de lector — [Documentación](https://github.com/ADRenaline-Suite/plugin-documentation)
+- Un diagrama UML que pidió un oficio — [Diagramas](https://github.com/ADRenaline-Suite/plugin-uml-diagrams)
+
+## <img src="icon-beside.svg" width="28" height="28" alt="" align="absmiddle"> Al lado de los dos caminos
+
+- [Cronología](https://github.com/ADRenaline-Suite/plugin-chronology) — una nota por chat de qué se intentó, y si funcionó.
+- [Confirmación](https://github.com/ADRenaline-Suite/plugin-action-confirmation) — la frase exacta de ese turno, antes de escribir en un servidor, una base o un repositorio remoto.
+- [Privacidad](https://github.com/ADRenaline-Suite/plugin-privacy) — qué hace el producto con los datos de una persona.
 
 ## <img src="icon-see.svg" width="28" height="28" alt="" align="absmiddle"> Ver el sistema
 
